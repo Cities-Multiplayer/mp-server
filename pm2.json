@@ -1,0 +1,5 @@
+{
+  "name": "mpServer",
+  "script": "index.js",
+  "watch": true
+}
