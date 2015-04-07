@@ -1,0 +1,8 @@
+{
+  "name": "citiesMultiplayerServer",
+  "version": "1.0.0",
+  "dependencies": {
+    "bluebird": "^2.9.15",
+    "chance": "^0.7.3"
+  }
+}
