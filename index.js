@@ -1,3 +1,5 @@
-var MPServer = require('./util/server');
+var MPServer = require('./util/server'),
+    os = require("os"),
+    serverName = os.hostname().split('mpServer-')[1].replace('-', ' ');
 
-new MPServer('US EAST 1');
+new MPServer(serverName);
